@@ -13,8 +13,11 @@ version:    24.12.29.12.30
 '''
 
 from modules.helpers import make_directories
-from config.settings import run_in_background, stealth_mode, disable_extensions, safe_mode, file_name, failed_file_name, logs_folder_path, generated_resume_path
-from config.questions import default_resume_path
+from config import (
+    run_in_background, stealth_mode, disable_extensions, safe_mode,
+    file_name, failed_file_name, logs_folder_path, generated_resume_path,
+    default_resume_path
+)
 if stealth_mode:
     import undetected_chromedriver as uc
 else: 

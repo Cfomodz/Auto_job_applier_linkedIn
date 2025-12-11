@@ -1,6 +1,5 @@
 ##> ------ Yang Li : MARKYangL - Feature ------
-from config.secrets import *
-from config.settings import showAiErrorAlerts
+from config import llm_api_url, llm_api_key, llm_model, stream_output, showAiErrorAlerts
 from modules.helpers import print_lg, critical_error_log, convert_to_json
 from modules.ai.prompts import *
 

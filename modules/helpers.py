@@ -26,7 +26,7 @@ from datetime import datetime, timedelta
 from pyautogui import alert
 from pprint import pprint
 
-from config.settings import logs_folder_path
+from config import logs_folder_path
 
 
 

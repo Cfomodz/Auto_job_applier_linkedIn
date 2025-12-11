@@ -12,8 +12,10 @@ GitHub:     https://github.com/GodsScion/Auto_job_applier_linkedIn
 '''
 
 
-from config.personals import *
-from config.questions import default_resume_path
+from config import (
+    first_name, middle_name, last_name, phone_number, current_city,
+    street, state, zipcode, country, default_resume_path
+)
 
 
 

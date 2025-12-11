@@ -13,11 +13,13 @@ version:    24.12.29.12.30
 '''
 
 
-from config.secrets import *
-from config.settings import showAiErrorAlerts
-from config.personals import ethnicity, gender, disability_status, veteran_status
-from config.questions import *
-from config.search import security_clearance, did_masters
+from config import (
+    llm_api_url, llm_api_key, llm_model, llm_spec, stream_output,
+    showAiErrorAlerts, ethnicity, gender, disability_status, veteran_status,
+    years_of_experience, require_visa, us_citizenship, confidence_level,
+    linkedin_headline, linkedin_summary, cover_letter, user_information_all,
+    security_clearance, did_masters
+)
 
 from modules.helpers import print_lg, critical_error_log, convert_to_json
 from modules.ai.prompts import *

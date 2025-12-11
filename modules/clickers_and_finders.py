@@ -12,7 +12,7 @@ GitHub:     https://github.com/GodsScion/Auto_job_applier_linkedIn
 version:    24.12.29.12.30
 '''
 
-from config.settings import click_gap, smooth_scroll
+from config import click_gap, smooth_scroll
 from modules.helpers import buffer, print_lg, sleep
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait

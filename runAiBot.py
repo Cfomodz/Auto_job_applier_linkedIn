@@ -32,11 +32,7 @@ from selenium.webdriver.support.select import Select
 from selenium.webdriver.remote.webelement import WebElement
 from selenium.common.exceptions import NoSuchElementException, ElementClickInterceptedException, NoSuchWindowException, ElementNotInteractableException, WebDriverException
 
-from config.personals import *
-from config.questions import *
-from config.search import *
-from config.secrets import use_AI, username, password, ai_provider
-from config.settings import *
+from config import *
 
 from modules.open_chrome import *
 from modules.helpers import *
